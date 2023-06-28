@@ -1,0 +1,35 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page28030644.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^remarque$ page28033363.html [NC]
+RewriteRule ^remarque/$ page28033363.html [NC]
+
+RewriteRule ^dreikameraden$ page28031868.html [NC]
+RewriteRule ^dreikameraden/$ page28031868.html [NC]
+
+RewriteRule ^triumphalnaya$ page28031872.html [NC]
+RewriteRule ^triumphalnaya/$ page28031872.html [NC]
+
+RewriteRule ^last$ page28032056.html [NC]
+RewriteRule ^last/$ page28032056.html [NC]
+
+RewriteRule ^heaven$ page28032064.html [NC]
+RewriteRule ^heaven/$ page28032064.html [NC]
+
+RewriteRule ^night$ page28032067.html [NC]
+RewriteRule ^night/$ page28032067.html [NC]
+
+RewriteRule ^materials$ page28032084.html [NC]
+RewriteRule ^materials/$ page28032084.html [NC]
+
+RewriteRule ^header$ page28145580.html [NC]
+RewriteRule ^header/$ page28145580.html [NC]
+
+
